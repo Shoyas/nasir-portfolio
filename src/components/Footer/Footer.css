@@ -1,0 +1,14 @@
+.Footer-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon-size{
+    color: #007BFF;
+}
+.icon-size:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+.copyRight{
+    margin-top: 50px;
+}

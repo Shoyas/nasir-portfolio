@@ -1,0 +1,21 @@
+.services-container{
+    margin-top: 50px;
+    background-image: url(../image/services/services.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.services-container h3{
+    letter-spacing: 5px;
+}
+.card-padding{
+    padding: 30px;
+    padding-left: 100px;
+}
+.card-name{
+    border-bottom: 4px solid #1769FF;
+    width: 50px;
+    margin: 0px auto;
+}
+.card-detail{
+    margin-top: 20px;
+}

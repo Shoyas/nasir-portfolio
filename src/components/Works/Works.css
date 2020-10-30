@@ -1,0 +1,16 @@
+.work-img{
+    width: 50%;
+    height: 400px;
+    display: cover;
+}
+.works-margin{
+    padding-top: 40px;
+}
+.projectTwo-container{
+    border-bottom: 4px double #007BFF;
+    padding-bottom: 20px;
+}
+.projectOne-container{
+    border-bottom: 4px double #007BFF; 
+    padding-bottom: 20px;
+}

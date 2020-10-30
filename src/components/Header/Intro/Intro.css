@@ -1,0 +1,19 @@
+.intro-container{
+    background-color: #F3F2F0;
+}
+.personal-photo img{
+    height: 400px;
+    width: 400px;
+    border: 4px double #007BFF;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.personal-intro{
+    margin-top: 80px;
+    font-family: "Tahoma";
+    padding-bottom: 50px;
+}
+.personal-intro h3{
+    font-weight: 100;
+}
