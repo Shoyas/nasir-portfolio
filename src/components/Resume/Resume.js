@@ -11,7 +11,7 @@ const Resume = () => {
                 <img src={cvPage2} alt=""/>
             </div>
             <div className="col-md-3 text-style">
-                <button type="button" class="btn btn-outline-primary"><a className="dwn-resume" href="https://drive.google.com/file/d/11zuE9MGq8bhHl1VbbFPTYHSzZtN966NL/view?usp=sharing" target="blank">Download Resume</a></button>
+                <button type="button" class="btn btn-outline-primary"><a className="dwn-resume" href="https://drive.google.com/uc?export=download&id=11zuE9MGq8bhHl1VbbFPTYHSzZtN966NL" target="blank">Download Resume</a></button>
             </div>
         </section>
     );

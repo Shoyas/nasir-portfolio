@@ -8,7 +8,7 @@ const Navigation = () => {
     return (
         
         <div style={{"backgroundColor":"#F3F2F0"}}>
-            <Navbar className="pt-4 navbar-margin-control" expand="lg">
+            <Navbar className="pt-4 nav-fix navbar-margin-control" expand="lg">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
                     <NavLink className='nav-link' to='/home'>

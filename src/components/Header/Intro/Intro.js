@@ -1,16 +1,45 @@
-import React from 'react';
+import {React, useRef, useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
 import photo from '../../image/Shoyas.jpg';
 import './Intro.css';
 
+import {TweenMax, Power3} from 'gsap';
+
 const Intro = () => {
+    let personalPhoto = useRef(null);
+    let content = useRef(null);
+
+
+    useEffect(() => {
+        TweenMax.to(
+            personalPhoto,
+            .8,
+            {
+                opacity: 1,
+                x: 20,
+                ease: Power3.easeOut
+            }
+
+        )
+        TweenMax.to(
+            content,
+            .8,
+            {
+                opacity: 1,
+                x: -20,
+                ease: Power3.easeOut
+            }
+
+        )
+    }, [])
+
     return (
         <div className="intro-container row">
             <div className="col-md-6 personal-photo">
-                <img src={photo} alt=""/>
+                <img ref={el => {personalPhoto = el}} src={photo} alt=""/>
             </div>
 
-            <div className="col-md-6 personal-intro">
+            <div ref={el => {content = el}} className="col-md-6 personal-intro">
                 <h3>Hello, I'm Nasir</h3>
                 <h1>Expert in Web<br/>
                     Design<br/>

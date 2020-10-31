@@ -35,18 +35,22 @@ function App() {
         <Route path="/works">
           <Navigation></Navigation>
           <Works></Works>
+          <Footer></Footer>
         </Route>
         <Route path="/blogs">
           <Navigation></Navigation>
           <Blogs></Blogs>
+          <Footer></Footer>
         </Route>
         <Route path="/resume">
           <Navigation></Navigation>
           <Resume></Resume>
+          <Footer></Footer>
         </Route>
         <Route path="/contact">
           <Navigation></Navigation>
           <Contact></Contact>
+          <Footer></Footer>
         </Route>
 
       </Switch>

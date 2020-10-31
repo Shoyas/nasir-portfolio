@@ -19,3 +19,21 @@
 .card-detail{
     margin-top: 20px;
 }
+.service-heading{
+    text-align: center;
+    color: #007BFF;
+}
+.card-main{
+    width: 18rem;
+    border: 1px solid #007BFF;
+
+}
+.card-main:hover{
+    box-shadow: 5px 5px 25px lightgray;
+
+}
+.card-image{
+    height: 50px;
+    width: 50px;
+    margin: 15px auto;
+}
