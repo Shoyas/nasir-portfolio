@@ -20,8 +20,8 @@ const Footer = () => {
                     <FontAwesomeIcon className="icon-size" icon={faGithub} />
                 </a>
             </div>
-            <div className="copyRight text-center">
-                <p>Copyright @ All Rights Reserved {(new Date()).getFullYear()}</p>
+            <div className="copyRight text-center pt-5">
+                <small>Copyright @ All Rights Reserved {(new Date()).getFullYear()}</small>
             </div>
         </section>
     );

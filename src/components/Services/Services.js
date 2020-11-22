@@ -58,7 +58,7 @@ const Services = () => {
     }, [])
 
     return (
-        <section style={{marginBottom: '30px'}}>
+        <section style={{marginBottom: '30px'}} className="container-fluid">
             <div ref={el => {content0 = el}} className="services-container">
                 <h3 className="service-heading">SERVICES</h3>
             </div>
