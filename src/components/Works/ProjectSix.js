@@ -15,6 +15,7 @@ const ProjectSix = () => {
                         <li>It's a design site for providing online services site.</li>
                         <li>An owner can design this type of site of his services site.</li>
                         <li>The customers can buy easily from this site for the design style.</li>
+                        <li><strong>Full Responsive site for all devices</strong></li>
                     </ul>
                     <br/>
                     <h5>Technologies:</h5>
