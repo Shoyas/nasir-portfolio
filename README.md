@@ -19,3 +19,5 @@ Technologies
 - Git
 - Netlify
 
+Live site link:
+https://nasir-portfolio.netlify.app/

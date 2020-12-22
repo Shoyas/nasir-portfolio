@@ -45,9 +45,9 @@ const ProjectThree = () => {
                         </div>
                     </div>
                     <h4>Live Site Link:</h4>
-                    <a href="https://stoic-kepler-71f9e4.netlify.app/" target="blank">https://stoic-kepler-71f9e4.netlify.app/</a>
+                    <a href="https://trusting-goodall-3ee475.netlify.app/" target="blank">https://trusting-goodall-3ee475.netlify.app/</a>
                     <h4>GitHub Repository Link</h4>
-                    <a href="https://github.com/Shoyas/social-buddy" target="blank">https://github.com/Shoyas/social-buddy</a>
+                    <a href="https://github.com/Shoyas/online-class-website" target="blank">https://github.com/Shoyas/online-class-website</a>
                     
                 </div>
             </div>
