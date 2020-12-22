@@ -18,6 +18,7 @@ Technologies
 - ES6
 - Git
 - Netlify
+- email.JS
 
 Live site link:
 https://nasir-portfolio.netlify.app/
